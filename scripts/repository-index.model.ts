@@ -10,7 +10,7 @@ export interface RepositoryIndex {
 export interface RepositoryIndexSet {
     name: string;
     exportVersion: string;
-    description: string;
+    description?: string;
     modes: ReviewMode[];
     cardCount: number;
     file: string;
